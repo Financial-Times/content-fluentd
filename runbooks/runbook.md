@@ -31,10 +31,6 @@ No
 
 No
 
-## Dependencies
-
-- content-fluentd-stream
-
 ## Failover Architecture Type
 
 ActiveActive
