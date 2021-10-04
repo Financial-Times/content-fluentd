@@ -15,23 +15,6 @@ Bronze
 
 Production
 
-## Delivered By
-
-content
-
-## Supported By
-
-content
-
-## Known About By
-
-- mihail.mihaylov
-- donislav.belev
-- boyko.boykov
-- kalin.arsov
-- dimitar.terziev
-- hristo.georgiev
-
 ## Host Platform
 
 AWS
@@ -47,10 +30,6 @@ No
 ## Contains Sensitive Data
 
 No
-
-## Dependencies
-
-- content-fluentd-stream
 
 ## Failover Architecture Type
 
