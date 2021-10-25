@@ -59,6 +59,10 @@ spec:
             configMapKeyRef:
               name: global-config
               key: splunk.forwarder.s3.bucket
+        - name: NODE_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: spec.nodeName
         ports:
         - name: http-input
           containerPort: 8080
