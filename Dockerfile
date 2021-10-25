@@ -28,5 +28,8 @@ COPY entrypoint.sh /fluentd/entrypoint.sh
 ENV FLUENTD_OPT=""
 ENV FLUENTD_CONF="fluent.conf"
 
+#Install cri parser
+RUN gem install fluent-plugin-parser-cri --no-document
+
 # Run Fluentd
 CMD ["/fluentd/entrypoint.sh"]
