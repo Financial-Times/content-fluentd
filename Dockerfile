@@ -2,9 +2,9 @@ FROM fluent/fluentd:v1.14-debian-1
 
 USER root
 
-ENV PATH /fluentd/vendor/bundle/ruby/2.6.0/bin:$PATH
-ENV GEM_PATH /fluentd/vendor/bundle/ruby/2.6.0
-ENV GEM_HOME /fluentd/vendor/bundle/ruby/2.6.0
+ENV PATH /fluentd/vendor/bundle/ruby/2.7.0/bin:$PATH
+ENV GEM_PATH /fluentd/vendor/bundle/ruby/2.7.0
+ENV GEM_HOME /fluentd/vendor/bundle/ruby/2.7.0
 
 COPY Gemfile* /fluentd/
 
