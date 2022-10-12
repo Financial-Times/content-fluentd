@@ -14,5 +14,4 @@ resources:
     cpu: 100m
     memory: 200Mi
 
-annotations:
-  iam.amazonaws.com/role: "eksctl-content-fluentd-kinesis-role-eks-delivery-dev-eu"
+serviceAccountName: eksctl-content-fluentd-serviceaccount
