@@ -13,5 +13,3 @@ resources:
   requests:
     cpu: 100m
     memory: 200Mi
-
-serviceAccountName: eksctl-content-fluentd-kinesis-serviceaccount
