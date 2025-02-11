@@ -45,7 +45,7 @@ FullyAutomated
 
 ## Failover Details
 
-The service is deployed in all Delivery, Publish and PAC clusters. The failover guides for the clusters can be found here:
+The service is deployed in all Delivery and Publish clusters. The failover guides for the clusters can be found here:
 <https://github.com/Financial-Times/upp-docs/tree/master/failover-guides>
 
 ## Data Recovery Process Type
